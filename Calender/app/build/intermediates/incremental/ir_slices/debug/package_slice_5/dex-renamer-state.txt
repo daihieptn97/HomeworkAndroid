@@ -1,0 +1,4 @@
+#Sat Jan 19 22:17:16 ICT 2019
+base.0=D\:\\code\\HomeworkAndroid\\Calender\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
