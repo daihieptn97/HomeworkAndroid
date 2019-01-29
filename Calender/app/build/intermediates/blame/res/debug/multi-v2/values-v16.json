@@ -4,7 +4,17 @@
             "outputFile": "D:\\code\\HomeworkAndroid\\Calender\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hiep\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\125fed3097b0a5477a6a44a2da798ec3\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Hiep\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\946c0e7ced6d2e476386cd83dcfc219c\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hiep\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8736130161eb5fdece1aac3fdadec046\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hiep\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1e9eefa342b6c75a53dcdd4f4cb205f9\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

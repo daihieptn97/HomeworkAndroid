@@ -1,5 +1,6 @@
 package com.k14.hiep.calender;
 
+import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
@@ -9,42 +10,39 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
 
+import com.k14.hiep.calender.DatabaseHandler.DatabaseConnect;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class Splash extends AppCompatActivity {
 
     private SQLiteDatabase db;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_splash);
-          initDataCalender();
+        context = this;
 
-        Intent intent = new Intent(this, Login.class);
-        this.startActivity(intent);
-    }
-
-//    AsyncTask<String, Integer, String>
-
-    private void initDataCalender() {
+        new DatabaseConnect(context);
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 //Do something after 100ms
-
+                Intent intent = new Intent(context, Login.class);
+                startActivity(intent);
             }
         }, 3000);
+    }
 
-//        db = openOrCreateDatabase("db.calender", MODE_PRIVATE, null);
-//        String codeCreateTableAccount = "CREATE TABLE IF NOT EXISTS account (id integer primary key autoincrement, email text, password text, name text )";
-//        db.execSQL(codeCreateTableAccount);
 
-//        return null;
+    private void initDataCalender() {
+
     }
 
 

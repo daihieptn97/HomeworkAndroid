@@ -11,15 +11,15 @@
         android:orientation="vertical"
         android:paddingHorizontal="4dp">
 
-        <EditText android:id="@+id/edtusername"
+        <EditText
+            android:id="@+id/loginEdtUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
             android:inputType="text" />
-
         <EditText
 
-            android:id="@+id/edtpassword"
+            android:id="@+id/loginEdtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -32,7 +32,8 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <Button android:id="@+id/btnLogin"
+            <Button
+                android:id="@+id/loginBtnLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
@@ -40,7 +41,7 @@
                 android:textColor="@color/colorWhite" />
 
             <TextView
-                android:id="@+id/txtRegister"
+                android:id="@+id/loginTxtRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
