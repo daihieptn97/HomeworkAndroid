@@ -80,6 +80,7 @@ public class DatabaseNoteConnect extends SQLiteOpenHelper {
                     cursor.getString(4)
             );
             noteArrayList.add(note);
+            cursor.moveToNext();
         }
         return noteArrayList;
     }

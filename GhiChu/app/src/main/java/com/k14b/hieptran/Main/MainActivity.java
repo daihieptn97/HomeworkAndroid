@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void mapping() {
         arrayNote = new ArrayList<>();
-        lvNote = findViewById(R.id.mainLvNote);
+        lvNote = findViewById(R.id.lvNote);
         databaseNote = new DatabaseNoteConnect(context);
     }
 }

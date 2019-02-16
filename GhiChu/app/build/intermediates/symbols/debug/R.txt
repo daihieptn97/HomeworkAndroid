@@ -736,7 +736,7 @@ int id loginBtnLogin 0x7f070053
 int id loginEdtPassword 0x7f070054
 int id loginEdtUsername 0x7f070055
 int id loginTxtRegister 0x7f070056
-int id mainLvNote 0x7f070057
+int id lvNote 0x7f070057
 int id menuAddNode 0x7f070058
 int id menuCreate 0x7f070059
 int id menuCreateNoteImgBack 0x7f07005a

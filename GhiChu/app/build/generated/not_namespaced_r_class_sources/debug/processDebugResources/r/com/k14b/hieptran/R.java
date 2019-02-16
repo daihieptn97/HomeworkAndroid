@@ -3491,7 +3491,7 @@ public final class R {
     public static final int loginEdtPassword=0x7f070054;
     public static final int loginEdtUsername=0x7f070055;
     public static final int loginTxtRegister=0x7f070056;
-    public static final int mainLvNote=0x7f070057;
+    public static final int lvNote=0x7f070057;
     public static final int menuAddNode=0x7f070058;
     public static final int menuCreate=0x7f070059;
     public static final int menuCreateNoteImgBack=0x7f07005a;

@@ -737,7 +737,7 @@ id loginBtnLogin
 id loginEdtPassword
 id loginEdtUsername
 id loginTxtRegister
-id mainLvNote
+id lvNote
 id menuAddNode
 id menuCreate
 id menuCreateNoteImgBack

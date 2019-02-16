@@ -25,8 +25,8 @@ public class DatabaseAccountConnect extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String codeCreateTableAccount = "CREATE TABLE IF NOT EXISTS account (id integer primary key autoincrement, email text, password text, name text )";
         db.execSQL(codeCreateTableAccount);
-//        String codeCreateTableNote = "CREATE TABLE IF NOT EXISTS note (id integer primary key autoincrement, idaccount int, tilte text, content text, timeCreate text )";
-//        db.execSQL(codeCreateTableNote);
+        String codeCreateTableNote = "CREATE TABLE IF NOT EXISTS note (id integer primary key autoincrement, idaccount int, tilte text, content text, timeCreate text )";
+        db.execSQL(codeCreateTableNote);
     }
 
     @Override

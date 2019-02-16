@@ -9,7 +9,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.k14b.hieptran.Database.Account;
 import com.k14b.hieptran.Database.DatabaseAccountConnect;
 import com.k14b.hieptran.Main.MainActivity;
 
@@ -37,25 +39,25 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        Intent intent = new Intent(context, MainActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(context, MainActivity.class);
+//        startActivity(intent);
 
-//        btnLogin.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                if (isEmpty(edtEmail.getText().toString().trim(), edtPassword.getText().toString().trim())) {
-//                    Account user = db.login(edtEmail.getText().toString().trim(), edtPassword.getText().toString().trim());
-//                    if (user != null) {
-//                        Toast.makeText(context, "xin chào " + user.getName(), Toast.LENGTH_SHORT).show();
-//                        Intent intent = new Intent(context, MainActivity.class);
-//                        startActivity(intent);
-//                    } else {
-//                        Toast.makeText(context, "Tai khoản hoặc mật khẩu không chính xác", Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//            }
-//        });
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (isEmpty(edtEmail.getText().toString().trim(), edtPassword.getText().toString().trim())) {
+                    Account user = db.login(edtEmail.getText().toString().trim(), edtPassword.getText().toString().trim());
+                    if (user != null) {
+                        Toast.makeText(context, "xin chào " + user.getName(), Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(context, MainActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(context, "Tai khoản hoặc mật khẩu không chính xác", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
     }
 
     private boolean isEmpty(String mail, String pass) {
