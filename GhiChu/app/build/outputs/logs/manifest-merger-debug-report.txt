@@ -88,10 +88,10 @@ activity#com.k14b.hieptran.Main.CreateNote
 ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:19:9-62
 	android:name
 		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:19:19-50
-activity#com.k14b.hieptran.Login
-ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:9-52
+activity#com.k14b.hieptran.LoginActivity
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:9-60
 	android:name
-		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:19-40
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:19-48
 activity#com.k14b.hieptran.Register
 ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:21:9-55
 	android:name

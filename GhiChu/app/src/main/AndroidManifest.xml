@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main.CreateNote"></activity>
-        <activity android:name=".Login"></activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".Register"></activity>
         <activity android:name=".Main.MainActivity"></activity>
     </application>

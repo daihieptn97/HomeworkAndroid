@@ -385,6 +385,7 @@
     <string name="demo_description">Demo description ...</string>
     <string name="demo_title">demo title</string>
     <string name="login_text">Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
     <string name="register">Đăng ký</string>
     <string name="require_edittext">Trường này là bắt buộc</string>
     <string name="search_menu_title">Search</string>

@@ -2,6 +2,7 @@ package com.k14b.hieptran;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,8 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.k14b.hieptran.Database.Account;
-import com.k14b.hieptran.Database.DatabaseAccountConnect;
+import com.k14b.hieptran.Database.Account.Account;
+import com.k14b.hieptran.Database.Account.DatabaseAccountConnect;
+import com.k14b.hieptran.Main.MainActivity;
 
 public class Register extends AppCompatActivity {
 
@@ -39,8 +41,9 @@ public class Register extends AppCompatActivity {
 
                     if (model.createAccount(account)) {
                         Toast.makeText(context, "Tạo tài khoản thành công", Toast.LENGTH_SHORT).show();
-//                        Intent intent = new Intent(context, MainActivity.class);
-//                        startActivity(intent);
+                        Intent intent = new Intent(context, LoginActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 }
             }

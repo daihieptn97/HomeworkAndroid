@@ -742,6 +742,7 @@ id menuAddNode
 id menuCreate
 id menuCreateNoteImgBack
 id menuCreateNoteImgSave
+id menuLogout
 id message
 id middle
 id multiply
@@ -918,6 +919,7 @@ string demo_date
 string demo_description
 string demo_title
 string login_text
+string logout
 string register
 string require_edittext
 string search_menu_title

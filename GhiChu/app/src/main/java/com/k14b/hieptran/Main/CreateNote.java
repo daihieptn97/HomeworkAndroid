@@ -3,29 +3,25 @@ package com.k14b.hieptran.Main;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
-import com.k14b.hieptran.Database.DatabaseNoteConnect;
+import com.k14b.hieptran.Database.Note.DatabaseNoteConnect;
 
-import com.k14b.hieptran.Database.Notes;
+import com.k14b.hieptran.Database.Note.Notes;
 import com.k14b.hieptran.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 public class CreateNote extends AppCompatActivity implements View.OnClickListener {
     private Context context;
     private EditText edtTitle, edtContent;
-        private ImageView btnBack, btnSave;
+    private ImageView btnBack, btnSave;
     private int idAccount;
     private DatabaseNoteConnect databaseNote;
 
@@ -45,7 +41,7 @@ public class CreateNote extends AppCompatActivity implements View.OnClickListene
         btnBack = findViewById(R.id.menuCreateNoteImgBack);
         btnSave = findViewById(R.id.menuCreateNoteImgSave);
 
-        idAccount = 1;
+        idAccount = getIntent().getIntExtra("idAccount", -1);
 
         btnSave.setOnClickListener(this);
         btnBack.setOnClickListener(this);
@@ -58,12 +54,17 @@ public class CreateNote extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()) {
             case R.id.menuCreateNoteImgBack: {
 //                Toast.makeText(context, "back", Toast.LENGTH_SHORT).show();
-                super.onBackPressed();
+//                super.onBackPressed();
+                finish();
                 break;
             }
             case R.id.menuCreateNoteImgSave: {
-                if (isEditexEmpty(edtTitle.getText().toString().trim(), edtContent.getText().toString().trim()))
+                if (isEditexEmpty(edtTitle.getText().toString().trim(), edtContent.getText().toString().trim())) {
                     saveNote();
+//                    super.onBackPressed();
+                    finish();
+                }
+
                 break;
             }
         }

@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.k14b.hieptran.Main.CreateNote" />
-        <activity android:name="com.k14b.hieptran.Login" />
+        <activity android:name="com.k14b.hieptran.LoginActivity" />
         <activity android:name="com.k14b.hieptran.Register" />
         <activity android:name="com.k14b.hieptran.Main.MainActivity" />
 

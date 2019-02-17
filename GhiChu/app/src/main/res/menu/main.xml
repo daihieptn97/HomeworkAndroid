@@ -4,6 +4,10 @@
     <item
         android:id="@+id/menuAddNode"
         android:icon="@drawable/add"
-        android:title="@string/add_note"
-        app:showAsAction="always" />
+        android:title="@string/add_note" />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/logout" />
 </menu>

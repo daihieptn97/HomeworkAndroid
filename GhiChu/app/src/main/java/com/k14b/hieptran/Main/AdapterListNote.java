@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 
-import com.k14b.hieptran.Database.Notes;
+import com.k14b.hieptran.Database.Note.Notes;
 import com.k14b.hieptran.R;
 
 import java.util.ArrayList;
