@@ -3,11 +3,15 @@ package com.k14b.hieptran.Main;
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.k14b.hieptran.Database.DatabaseNoteConnect;
 
@@ -19,7 +23,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     private ListView lvNote;
     private Context context;
-    private String[] number = {"0988222999", "0988933333", "0182882883", "0935727882", "0928873882", "01667887333"};
+    private SwipeRefreshLayout swipeRefreshLayout;
     private ArrayList<Notes> arrayNote;
     private DatabaseNoteConnect databaseNote;
 
@@ -30,23 +34,34 @@ public class MainActivity extends AppCompatActivity {
         context = this;
         mapping();
 
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
 
-//        Note note1 = new Note(1, 1, "ngay mai", "ngay mai di choi", "12/09");
-//        Note note2 = new Note(1, 1, "ngay mai", "ngay mai di choi", "12/09");
-//        Note note3 = new Note(1, 1, "ngay mai", "ngay mai di choi", "12/09");
-//        Note note4 = new Note(1, 1, "ngay mai", "ngay mai di choi", "12/09");
-//
-//
-//        noteArrayList.add(note1);
-//        noteArrayList.add(note2);
-//        noteArrayList.add(note3);
-//        noteArrayList.add(note4);
 
         arrayNote = databaseNote.getDataNoteByAccountId(1);
         AdapterListNote adapterListNote = new AdapterListNote(context, R.layout.adapter_list_note, arrayNote);
         lvNote.setAdapter(adapterListNote);
-    }
 
+        lvNote.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(context, arrayNote.get(position).getTilte(), Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        lvNote.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(context, "long " + arrayNote.get(position).getTilte(), Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -66,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
     private void mapping() {
         arrayNote = new ArrayList<>();
         lvNote = findViewById(R.id.lvNote);
+        swipeRefreshLayout = findViewById(R.id.swipeLayout);
         databaseNote = new DatabaseNoteConnect(context);
+
     }
 }

@@ -797,6 +797,7 @@ id standard
 id start
 id submenuarrow
 id submit_area
+id swipeLayout
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -918,6 +919,7 @@ string demo_description
 string demo_title
 string login_text
 string register
+string require_edittext
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

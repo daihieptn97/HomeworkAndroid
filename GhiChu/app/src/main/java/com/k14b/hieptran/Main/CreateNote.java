@@ -25,7 +25,7 @@ import java.util.Locale;
 public class CreateNote extends AppCompatActivity implements View.OnClickListener {
     private Context context;
     private EditText edtTitle, edtContent;
-    private ImageView btnBack, btnSave;
+        private ImageView btnBack, btnSave;
     private int idAccount;
     private DatabaseNoteConnect databaseNote;
 
@@ -62,10 +62,25 @@ public class CreateNote extends AppCompatActivity implements View.OnClickListene
                 break;
             }
             case R.id.menuCreateNoteImgSave: {
-                saveNote();
+                if (isEditexEmpty(edtTitle.getText().toString().trim(), edtContent.getText().toString().trim()))
+                    saveNote();
                 break;
             }
         }
+    }
+
+    private boolean isEditexEmpty(String title, String content) {
+        if (title.length() <= 0) {
+            edtTitle.setError(getString(R.string.require_edittext));
+            return false;
+        }
+
+        if (content.length() <= 0) {
+            edtContent.setError(getString(R.string.require_edittext));
+            return false;
+        }
+
+        return true;
     }
 
     private void saveNote() {
