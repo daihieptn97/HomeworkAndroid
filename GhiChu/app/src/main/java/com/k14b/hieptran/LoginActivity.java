@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
         this.setTitle("Đăng nhập");
         init();
 
@@ -37,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, Register.class);
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 context.startActivity(intent);
             }
         });
