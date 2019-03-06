@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\code\\HomeworkAndroid\\GhiChu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hiep\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc02.aar\\1855599c454c40ca10bd9824e5fe61b0\\res\\values-v17\\values-v17.xml",
+                    "source": "/home/hiep/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/3747502871900fd55eabf8436bb8acf7/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

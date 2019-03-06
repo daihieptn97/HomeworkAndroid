@@ -34,6 +34,18 @@ public class DatabaseNoteConnect extends SQLiteOpenHelper {
 
     }
 
+    public int updateNode(Notes notes) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("idaccount", notes.getIdAccount());
+        values.put("tilte", notes.getTilte());
+        values.put("content", notes.getContent());
+
+        String[] arrayWhere = {String.valueOf(notes.getId())};
+
+        return db.update(TABLE_NAME, values, "id=?", arrayWhere);
+    }
+
     /**
      * create account
      *

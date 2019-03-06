@@ -65,7 +65,14 @@ public class MainActivity extends AppCompatActivity {
         lvNote.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(context, arrayNote.get(position).getTilte(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, arrayNote.get(position).getTilte(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, EditNodeActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("title", arrayNote.get(position).getTilte());
+                bundle.putString("content", arrayNote.get(position).getContent());
+                bundle.putInt("id", arrayNote.get(position).getId());
+
+                startActivity(intent);
 
             }
         });

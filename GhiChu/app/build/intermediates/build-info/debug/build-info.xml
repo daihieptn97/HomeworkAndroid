@@ -1,104 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="25"
-    build-mode="FULL"
+    abi="x86"
+    api-level="22"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.1"
-    timestamp="1551194716306"
-    token="-4118101362507561953"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1551857218088"
+    token="-6483107920656537355"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="7013" />
+        duration="802" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1354" />
+        duration="30" />
     <task
         name="verifier"
-        duration="906" />
+        duration="36" />
 
     <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1551194716306"
+        timestamp="1551856814293"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\code\HomeworkAndroid\GhiChu\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1551857218088"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

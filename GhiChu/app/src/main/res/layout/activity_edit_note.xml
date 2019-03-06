@@ -21,7 +21,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/menuCreateNoteImgBack"
+                android:id="@+id/menuEditNoteImgBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -31,12 +31,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
-                android:text="@string/add_note"
+                android:text="Sửa ghi chú"
                 android:textColor="@color/colorWhite"
                 android:textSize="19sp" />
 
             <ImageView
-                android:id="@+id/menuCreateNoteImgSave"
+                android:id="@+id/menuEditNoteImgSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -45,13 +45,13 @@
     </Toolbar>
 
     <EditText
-        android:id="@+id/createNoteEdtTitle"
+        android:id="@+id/editNoteEdtTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Têu đề" />
 
     <EditText
-        android:id="@+id/createNoteEdtContent"
+        android:id="@+id/editNoteEdtContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
