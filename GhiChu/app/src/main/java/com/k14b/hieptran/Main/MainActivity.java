@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
             public void onRefresh() {
 //                arrayNote.clear();
                 arrayNote = databaseNote.getDataNoteByAccountId(userData.getIdAccount());
-
                 adapterListNote = new AdapterListNote(context, R.layout.adapter_list_note, arrayNote);
                 lvNote.setAdapter(adapterListNote);
 
@@ -67,13 +66,12 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 //                Toast.makeText(context, arrayNote.get(position).getTilte(), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context, EditNodeActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("title", arrayNote.get(position).getTilte());
-                bundle.putString("content", arrayNote.get(position).getContent());
-                bundle.putInt("id", arrayNote.get(position).getId());
+//                Bundle bundle = new Bundle();
+                intent.putExtra("title", arrayNote.get(position).getTilte());
+                intent.putExtra("content", arrayNote.get(position).getContent());
+                intent.putExtra("id", arrayNote.get(position).getId());
 
                 startActivity(intent);
-
             }
         });
 

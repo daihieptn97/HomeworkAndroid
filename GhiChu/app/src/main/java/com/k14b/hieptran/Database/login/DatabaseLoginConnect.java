@@ -23,7 +23,7 @@ public class DatabaseLoginConnect extends SQLiteOpenHelper {
         db.execSQL(codeCreateTableLogin);
         String codeCreateTableAccount = "CREATE TABLE IF NOT EXISTS account (id integer primary key autoincrement, email text, password text, name text )";
         db.execSQL(codeCreateTableAccount);
-        String codeCreateTableNote = "CREATE TABLE IF NOT EXISTS note (id integer primary key autoincrement, idaccount int, tilte text, content text, timeCreate text )";
+        String codeCreateTableNote = "CREATE TABLE IF NOT EXISTS note (id integer primary key autoincrement, idaccount int, tilte text, content text, timeCreate text, color integer )";
         db.execSQL(codeCreateTableNote);
     }
 

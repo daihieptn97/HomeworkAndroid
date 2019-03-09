@@ -6,6 +6,24 @@ public class Notes {
     String tilte;
     String content;
     String timeCreate;
+    int color;
+
+    public Notes(int id, int idAccount, String tilte, String content, String timeCreate, int color) {
+        this.id = id;
+        this.idAccount = idAccount;
+        this.tilte = tilte;
+        this.content = content;
+        this.timeCreate = timeCreate;
+        this.color = color;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
 
     public int getId() {
         return id;

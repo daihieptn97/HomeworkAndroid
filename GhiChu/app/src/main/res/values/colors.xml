@@ -6,4 +6,18 @@
     <color name="colorWhite">#FFF</color>
     <color name="colorGrey">#C0C0C0</color>
     <color name="colorBlack">#E40A0A0A</color>
+
+    <!--background note item-->
+    <color name="bgCyanNoteItem">#b2ebf2</color>
+    <color name="bgTeal">#b2dfdb</color>
+    <color name="bgGreen">#a5d6a7</color>
+    <color name="bgLightGreen">#c5e1a5</color>
+    <color name="bgDeepOrange">#ffccbc</color>
+    <color name="bgBlue">#bbdefb</color>
+    <color name="bgIndigo">#c5cae9</color>
+    <color name="bgDeepPurple">#d1c4e9</color>
+    <color name="bgPurple">#e1bee7</color>
+    <color name="bgRed">#ffcdd2</color>
+
+
 </resources>

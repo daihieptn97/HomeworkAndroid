@@ -593,6 +593,16 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgBlue
+color bgCyanNoteItem
+color bgDeepOrange
+color bgDeepPurple
+color bgGreen
+color bgIndigo
+color bgLightGreen
+color bgPurple
+color bgRed
+color bgTeal
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1098,6 +1108,8 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editNoteEdtContent
+id editNoteEdtTitle
 id edit_query
 id end
 id enterAlways
@@ -1127,6 +1139,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id layoutNoteItem
 id left
 id line1
 id line3
@@ -1142,6 +1155,8 @@ id menuAddNode
 id menuCreate
 id menuCreateNoteImgBack
 id menuCreateNoteImgSave
+id menuEditNoteImgBack
+id menuEditNoteImgSave
 id menuLogout
 id message
 id middle

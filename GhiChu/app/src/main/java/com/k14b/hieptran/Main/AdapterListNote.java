@@ -1,10 +1,13 @@
 package com.k14b.hieptran.Main;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
@@ -18,7 +21,7 @@ public class AdapterListNote extends ArrayAdapter<Notes> {
     private Context context;
     private ArrayList<Notes> arrayNote;
     private TextView txtTitle, txtContent, txtDate;
-
+    private LinearLayout layout;
 
     public AdapterListNote(Context context, int resource, ArrayList<Notes> objects) {
         super(context, resource, objects);
@@ -38,8 +41,12 @@ public class AdapterListNote extends ArrayAdapter<Notes> {
         txtTitle.setText(note.getTilte());
         txtDate.setText(note.getTimeCreate());
         txtContent.setText(note.getContent());
+        layout.setBackgroundColor(note.getColor());
 
+        GradientDrawable gradientDrawable = (GradientDrawable) v.getBackground();
+        gradientDrawable.setColor(0xFF000000);
 
+//        drawable.setColor(0xFF000000);
         return v;
     }
 
@@ -47,6 +54,7 @@ public class AdapterListNote extends ArrayAdapter<Notes> {
         txtContent = v.findViewById(R.id.adapterTxtContentNote);
         txtDate = v.findViewById(R.id.adapterTxtDateNote);
         txtTitle = v.findViewById(R.id.adapterTxtTileNoe);
+        layout = v.findViewById(R.id.layoutNoteItem);
     }
 
 
