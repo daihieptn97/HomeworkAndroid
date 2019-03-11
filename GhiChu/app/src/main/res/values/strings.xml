@@ -22,4 +22,11 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="hind_contentNote">ts an amazing tool that lets you customize your actionbar with a live preview.
+        I tried the earlier answers but always had problems with changing other colors like the tabs and letters and spent hours tweaking stuff. This tool helped me get my design done in just a couple of minutes.
+        I tried the earlier answers but always had problems with changing other colors like the tabs and letters and spent hours tweaking stuff. This tool helped me get my design done in just a couple of minutes.
+
+
+    </string>
+    <string name="hint_titleNode">How do I change the background color of the ActionBar of an ActionBarActivity using XML?</string>
 </resources>

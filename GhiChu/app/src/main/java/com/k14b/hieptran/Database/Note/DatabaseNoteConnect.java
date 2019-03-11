@@ -14,8 +14,7 @@ import java.util.Random;
 public class DatabaseNoteConnect extends SQLiteOpenHelper {
     private Context context;
     private String TABLE_NAME = "note";
-    private int[] arrColor = {R.color.bgBlue, R.color.bgCyanNoteItem, R.color.bgDeepOrange, R.color.bgDeepPurple, R.color.bgGreen, R.color.bgIndigo, R.color.bgLightGreen,
-            R.color.bgRed, R.color.bgTeal, R.color.bgPurple};
+
     /*
      * database note
      *
@@ -61,13 +60,11 @@ public class DatabaseNoteConnect extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
 
-        Random random = new Random();
-        int indexBgColor = random.nextInt(11);
 
         values.put("idaccount", note.getIdAccount());
         values.put("tilte", note.getTilte());
         values.put("content", note.getContent());
-        values.put("color", arrColor[indexBgColor]);
+        values.put("color", note.getColor());
         values.put("timeCreate", note.getTimeCreate());
 
         long isSuccess = db.insert(TABLE_NAME, null, values);
@@ -90,8 +87,11 @@ public class DatabaseNoteConnect extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         ArrayList<Notes> noteArrayList = new ArrayList<>();
 
-        String sql = "select * from " + TABLE_NAME + " where idaccount = " + accountId;
-        Cursor cursor = db.rawQuery(sql, null);
+//        String sql = "select * from " + TABLE_NAME + " where idaccount = " + accountId;
+//        Cursor cursor = db.rawQuery(sql, null);
+
+        Cursor cursor = db.query(TABLE_NAME, null, "idaccount=?", new String[]{String.valueOf(accountId)}, null, null, "id DESC");
+
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
@@ -120,7 +120,8 @@ public class DatabaseNoteConnect extends SQLiteOpenHelper {
                     cursor.getString(2),
                     cursor.getString(3),
                     cursor.getString(4),
-                    cursor.getInt(4)
+                    cursor.getInt(5)
+
 
             );
 

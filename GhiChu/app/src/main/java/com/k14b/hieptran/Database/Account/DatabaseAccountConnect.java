@@ -81,5 +81,23 @@ public class DatabaseAccountConnect extends SQLiteOpenHelper {
 
     }
 
+    public Account getUserByIdAccount(int id) {
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.query(TABLE_NAME, new String[]{"id", "name", "mail"}, "id=?", new String[]{String.valueOf(id)}, null, null, null);
+        if (cursor.getCount() > 0) {
+            cursor.moveToFirst();
+            Account account = new Account(
+                    cursor.getInt(0),
+                    cursor.getString(1),
+                    cursor.getString(2),
+                    null
+            );
+
+            return account;
+        }
+        return null;
+    }
+
 
 }

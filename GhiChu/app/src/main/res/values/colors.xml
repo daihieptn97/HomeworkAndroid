@@ -6,6 +6,7 @@
     <color name="colorWhite">#FFF</color>
     <color name="colorGrey">#C0C0C0</color>
     <color name="colorBlack">#E40A0A0A</color>
+    <color name="colorText">#424242</color>
 
     <!--background note item-->
     <color name="bgCyanNoteItem">#b2ebf2</color>
