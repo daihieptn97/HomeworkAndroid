@@ -1,197 +1,201 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hiep/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ea1bd2229e0df2973dd50a1dec8e6fcc/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/3747502871900fd55eabf8436bb8acf7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/127b596d793ebd84624ce98f32c588f8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/01496be3b76952feb07674c6e202b5d8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/5a1bfa8de99cde3dab434b1335af64f3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/5e4a786db9c296ffcd61d955ad863053/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/1e573a9d9553e4ef7f0b500f95600fb4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/82f1e238c6aa7646ce6b683f5a539640/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/2dfacc41ffdf4e5eb5815ca326cb95dc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/250e39e00e484fbb3eec38f8ae18c1cf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/e6f9d57999dfae91016461a22e497046/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/f0535b50dd4bbca7b10acef1e15f01f2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/34f456bd2e5be451808446a0378ace98/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/136d674331a19ab0cfa4dd65647f09fd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/0e22652daea3497a8de4e8365298a3aa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/39d37990a6ba7e7ced65abb1316f0774/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/f40322cc6d0878dec87e11b4f022c4be/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/c152804cfa3766ede30bda57248f45fc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e4d55bcdddeb85e58bc4e4c9318d5b67/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2acacc9499eccfec7032a6039222596b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/e31fa0b55ffd7267bf1b640ef398bad9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c3249b0ecd2987809c651581fb20c14b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/10f456358a88b7764beacd29fb4e049a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/cc8dfcac1fcca9e8b8561b9da2a8ba55/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/f1c690309ba5c34305adb11fbfcadb4d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ab3ddccdc71b65b69e87abfd50b38d68/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8885bb8b5c2448aa4b0c2e7c821449bb/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3acd1f8c7b962ccdb0bbde34d08a7b4/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4c0843a90738c8984400a4fa33e25a8a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\9494249407fe40f7ad2faec96ca508fe\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\1855599c454c40ca10bd9824e5fe61b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\633f036a91903eded802abcace053993\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\98f7c81f068bf9ee4ffac2263b8bb78b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\e1786ef623ddbd2bb05873207712fc7c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\8f4b3c10dc6b808d7c1ea80de7844a7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\92bac990745bb7fbe2c07c43cdcbae80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\ebac3a3fd7fa4745ac80e8081352b5d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\a64259466c5dcb8cbb54a4b3cd03895f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\0784173487df06bad9d262ce7ef23a68\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\566d3370a3bbae6f8bd266546218e7c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\ef069be7f2bae08a7ff10f264e764489\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\315a3fbb0a2e4054912f2054c4d1cd87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\c713b53ec58a89843557898866bd35eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\77876178ab8ffcb17a1fb5cb6253db55\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\8d9672a4f36a62b3af8378b18d73be04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\ae9ad467b938d08cea2d4e5c0a630fce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\d88a775c2614fcf5d4a9c512ce78677a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\57a1af7deefdb1d4acc924c494759c7c\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdf4b0c214edd6a3aa62659eabdea9ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\6e44b1f02afbdd51731f959afc04a263\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\473ed97abda1c7b37ca1ebab67d104d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\789f6a2b4fcbd4b9bd8def73cd31f720\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\9ff9f829858840ba99e2c1d8e159b57b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9aeb591e8a4e45c6a6fc0e77c2d34cbb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1230a5fe7de30b8c54dc7e5ea7b3b5e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4676d9566fe58a37e29638fba7c81fb0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5a72e604f0f37c075ddca16558540945\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:3:5-32
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:5:5-71
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:5:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:7:5-72
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:7:22-69
 application
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:10:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hiep/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ea1bd2229e0df2973dd50a1dec8e6fcc/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hiep/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ea1bd2229e0df2973dd50a1dec8e6fcc/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e4d55bcdddeb85e58bc4e4c9318d5b67/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e4d55bcdddeb85e58bc4e4c9318d5b67/AndroidManifest.xml:22:5-23:19
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:9:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4c0843a90738c8984400a4fa33e25a8a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4c0843a90738c8984400a4fa33e25a8a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\9494249407fe40f7ad2faec96ca508fe\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\9494249407fe40f7ad2faec96ca508fe\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\57a1af7deefdb1d4acc924c494759c7c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\57a1af7deefdb1d4acc924c494759c7c\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.k14b.hieptran.info
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:16:9-51
+	android:name
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:16:19-39
 activity#com.k14b.hieptran.Main.EditNodeActivity
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:18:9-59
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:17:9-59
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:18:19-56
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:17:19-56
 activity#com.k14b.hieptran.Splash
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:19:9-24:20
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:19:19-41
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:18:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.k14b.hieptran.Main.CreateNote
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:25:9-53
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:25:9-53
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:25:19-50
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:25:19-50
 activity#com.k14b.hieptran.LoginActivity
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:26:9-51
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:26:9-51
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:26:19-48
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:26:19-48
 activity#com.k14b.hieptran.RegisterActivity
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:27:9-54
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:27:19-51
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:27:19-51
 activity#com.k14b.hieptran.Main.MainActivity
-ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:28:9-55
+ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:28:9-55
 	android:name
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml:28:19-52
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml:28:19-52
 uses-sdk
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hiep/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ea1bd2229e0df2973dd50a1dec8e6fcc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hiep/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ea1bd2229e0df2973dd50a1dec8e6fcc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/3747502871900fd55eabf8436bb8acf7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/3747502871900fd55eabf8436bb8acf7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/127b596d793ebd84624ce98f32c588f8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/127b596d793ebd84624ce98f32c588f8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/01496be3b76952feb07674c6e202b5d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/01496be3b76952feb07674c6e202b5d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/5a1bfa8de99cde3dab434b1335af64f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/5a1bfa8de99cde3dab434b1335af64f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/5e4a786db9c296ffcd61d955ad863053/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/5e4a786db9c296ffcd61d955ad863053/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/1e573a9d9553e4ef7f0b500f95600fb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/1e573a9d9553e4ef7f0b500f95600fb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/82f1e238c6aa7646ce6b683f5a539640/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/82f1e238c6aa7646ce6b683f5a539640/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/2dfacc41ffdf4e5eb5815ca326cb95dc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/2dfacc41ffdf4e5eb5815ca326cb95dc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/250e39e00e484fbb3eec38f8ae18c1cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/250e39e00e484fbb3eec38f8ae18c1cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/e6f9d57999dfae91016461a22e497046/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/e6f9d57999dfae91016461a22e497046/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/f0535b50dd4bbca7b10acef1e15f01f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/f0535b50dd4bbca7b10acef1e15f01f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/34f456bd2e5be451808446a0378ace98/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/34f456bd2e5be451808446a0378ace98/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/136d674331a19ab0cfa4dd65647f09fd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/136d674331a19ab0cfa4dd65647f09fd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/0e22652daea3497a8de4e8365298a3aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/0e22652daea3497a8de4e8365298a3aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/39d37990a6ba7e7ced65abb1316f0774/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/39d37990a6ba7e7ced65abb1316f0774/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/f40322cc6d0878dec87e11b4f022c4be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/f40322cc6d0878dec87e11b4f022c4be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4a84e394a10cdb6970818c81c6599035/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/c152804cfa3766ede30bda57248f45fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/c152804cfa3766ede30bda57248f45fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e4d55bcdddeb85e58bc4e4c9318d5b67/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e4d55bcdddeb85e58bc4e4c9318d5b67/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2acacc9499eccfec7032a6039222596b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2acacc9499eccfec7032a6039222596b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/e31fa0b55ffd7267bf1b640ef398bad9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/e31fa0b55ffd7267bf1b640ef398bad9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c3249b0ecd2987809c651581fb20c14b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c3249b0ecd2987809c651581fb20c14b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/10f456358a88b7764beacd29fb4e049a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/10f456358a88b7764beacd29fb4e049a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/cc8dfcac1fcca9e8b8561b9da2a8ba55/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/cc8dfcac1fcca9e8b8561b9da2a8ba55/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/f1c690309ba5c34305adb11fbfcadb4d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] /home/hiep/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/f1c690309ba5c34305adb11fbfcadb4d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ab3ddccdc71b65b69e87abfd50b38d68/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ab3ddccdc71b65b69e87abfd50b38d68/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8885bb8b5c2448aa4b0c2e7c821449bb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8885bb8b5c2448aa4b0c2e7c821449bb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3acd1f8c7b962ccdb0bbde34d08a7b4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/hiep/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3acd1f8c7b962ccdb0bbde34d08a7b4/AndroidManifest.xml:20:5-44
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4c0843a90738c8984400a4fa33e25a8a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4c0843a90738c8984400a4fa33e25a8a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\9494249407fe40f7ad2faec96ca508fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\9494249407fe40f7ad2faec96ca508fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\1855599c454c40ca10bd9824e5fe61b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\1855599c454c40ca10bd9824e5fe61b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\633f036a91903eded802abcace053993\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\633f036a91903eded802abcace053993\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\98f7c81f068bf9ee4ffac2263b8bb78b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\98f7c81f068bf9ee4ffac2263b8bb78b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\e1786ef623ddbd2bb05873207712fc7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\e1786ef623ddbd2bb05873207712fc7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\8f4b3c10dc6b808d7c1ea80de7844a7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\8f4b3c10dc6b808d7c1ea80de7844a7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\92bac990745bb7fbe2c07c43cdcbae80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\92bac990745bb7fbe2c07c43cdcbae80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\ebac3a3fd7fa4745ac80e8081352b5d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\ebac3a3fd7fa4745ac80e8081352b5d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\a64259466c5dcb8cbb54a4b3cd03895f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\a64259466c5dcb8cbb54a4b3cd03895f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\0784173487df06bad9d262ce7ef23a68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\0784173487df06bad9d262ce7ef23a68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\566d3370a3bbae6f8bd266546218e7c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\566d3370a3bbae6f8bd266546218e7c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\ef069be7f2bae08a7ff10f264e764489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\ef069be7f2bae08a7ff10f264e764489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\315a3fbb0a2e4054912f2054c4d1cd87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\315a3fbb0a2e4054912f2054c4d1cd87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\c713b53ec58a89843557898866bd35eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\c713b53ec58a89843557898866bd35eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\77876178ab8ffcb17a1fb5cb6253db55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\77876178ab8ffcb17a1fb5cb6253db55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\8d9672a4f36a62b3af8378b18d73be04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\8d9672a4f36a62b3af8378b18d73be04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\ae9ad467b938d08cea2d4e5c0a630fce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\ae9ad467b938d08cea2d4e5c0a630fce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\2fd6154feb5b7dd78777504984bcc3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\d88a775c2614fcf5d4a9c512ce78677a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\d88a775c2614fcf5d4a9c512ce78677a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\57a1af7deefdb1d4acc924c494759c7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\57a1af7deefdb1d4acc924c494759c7c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdf4b0c214edd6a3aa62659eabdea9ed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdf4b0c214edd6a3aa62659eabdea9ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\6e44b1f02afbdd51731f959afc04a263\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\6e44b1f02afbdd51731f959afc04a263\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\473ed97abda1c7b37ca1ebab67d104d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\473ed97abda1c7b37ca1ebab67d104d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\789f6a2b4fcbd4b9bd8def73cd31f720\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\789f6a2b4fcbd4b9bd8def73cd31f720\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\9ff9f829858840ba99e2c1d8e159b57b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\9ff9f829858840ba99e2c1d8e159b57b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9aeb591e8a4e45c6a6fc0e77c2d34cbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\9aeb591e8a4e45c6a6fc0e77c2d34cbb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1230a5fe7de30b8c54dc7e5ea7b3b5e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1230a5fe7de30b8c54dc7e5ea7b3b5e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4676d9566fe58a37e29638fba7c81fb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4676d9566fe58a37e29638fba7c81fb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5a72e604f0f37c075ddca16558540945\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hiep\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5a72e604f0f37c075ddca16558540945\AndroidManifest.xml:20:5-44
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		ADDED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hiep/Desktop/HomeworkAndroid/GhiChu/app/src/main/AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\HomeworkAndroid\GhiChu\app\src\main\AndroidManifest.xml

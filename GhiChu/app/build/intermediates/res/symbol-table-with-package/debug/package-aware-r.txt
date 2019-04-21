@@ -1028,6 +1028,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable info
 drawable logo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1158,12 +1159,12 @@ id loginEdtUsername
 id loginTxtRegister
 id lvNote
 id masked
-id menuAddNode
 id menuCreate
 id menuCreateNoteImgBack
 id menuCreateNoteImgSave
 id menuEditNoteImgBack
 id menuEditNoteImgSave
+id menuInfo
 id menuLogout
 id message
 id middle
@@ -1327,6 +1328,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_note
 layout activity_edit_note
+layout activity_info
 layout activity_login
 layout activity_main
 layout activity_register

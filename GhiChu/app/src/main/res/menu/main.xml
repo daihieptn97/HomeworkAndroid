@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
     <item
-        android:id="@+id/menuAddNode"
-        android:icon="@drawable/add"
-        android:title="@string/add_note" />
+        android:id="@+id/menuInfo"
+        android:icon="@drawable/info"
+        android:title="Thông tin" />
 
     <item
         android:id="@+id/menuLogout"

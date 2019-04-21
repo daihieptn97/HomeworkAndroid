@@ -30,6 +30,7 @@ import com.k14b.hieptran.Database.login.DatabaseLoginConnect;
 import com.k14b.hieptran.Database.login.Login;
 import com.k14b.hieptran.LoginActivity;
 import com.k14b.hieptran.R;
+import com.k14b.hieptran.info;
 
 import java.util.ArrayList;
 
@@ -223,9 +224,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.menuAddNode) {
-            Intent intent = new Intent(context, CreateNote.class);
-            intent.putExtra("idAccount", userData.getIdAccount());
+        if (item.getItemId() == R.id.menuInfo) {
+            Intent intent = new Intent(context, info.class);
+
             context.startActivity(intent);
         }
         if (item.getItemId() == R.id.menuLogout) {

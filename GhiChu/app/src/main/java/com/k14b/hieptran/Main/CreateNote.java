@@ -135,6 +135,6 @@ public class CreateNote extends AppCompatActivity implements View.OnClickListene
         note.setTimeCreate(date);
 
         databaseNote.createNote(note);
-        Toast.makeText(context, "Them bai biet thanh cong", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Them bai viết thanh cong", Toast.LENGTH_SHORT).show();
     }
 }

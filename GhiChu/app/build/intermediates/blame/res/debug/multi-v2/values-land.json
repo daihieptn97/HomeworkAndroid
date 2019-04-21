@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hiep/Desktop/HomeworkAndroid/GhiChu/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "D:\\code\\HomeworkAndroid\\GhiChu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/hiep/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/3747502871900fd55eabf8436bb8acf7/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "/home/hiep/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a7bf5678b89e8d69fec955201f6e9fa/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Hiep\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0-rc02.aar\\9494249407fe40f7ad2faec96ca508fe\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hiep\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc02.aar\\1855599c454c40ca10bd9824e5fe61b0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]
